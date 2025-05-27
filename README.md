@@ -22,8 +22,8 @@ A simple cross-platform desktop GUI tool written in Go using the Fyne framework.
 
 ### 1. Clone the Project
 ```bash
-git clone https://github.com/yourname/merge-zip-gui.git
-cd merge-zip-gui
+git clone https://github.com/AnthoniusHendriyanto/porto_app_merge_zip_excel_csv.git
+cd porto_app_merge_zip_excel_csv
 ```
 
 ### 2. Initialize Go Modules
@@ -61,21 +61,21 @@ go build -o zip-merge-tool ./cmd/gui
 
 ```
 merge-zip-gui/
+├── bin/
 ├── cmd/
 │   └── gui/
 │       └── main.go
 ├── internal/
 │   ├── merge/
-│   │   ├── processor.go
 │   │   ├── csv.go
-│   │   ├── xlsx.go
-│   │   ├── unzip.go
 │   │   └── open.go
+│   │   ├── processor.go
+│   │   ├── xlsx.go
 │   └── ui/
 │       └── layout.go
-├── Makefile
 ├── go.mod
 ├── LICENSE
+├── Makefile
 └── README.md
 ```
 
