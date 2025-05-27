@@ -11,7 +11,7 @@ linux:
 	GOOS=linux GOARCH=amd64 go build -o bin/$(APP_NAME)-linux $(SRC_DIR)
 
 windows:
-	GOOS=windows GOARCH=amd64 go build -o bin/$(APP_NAME)-windows.exe $(SRC_DIR)
+	go build -o bin/zip-merge-tool.exe ./cmd/gui
 
 clean:
 	rm -rf bin
